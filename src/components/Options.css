@@ -1,0 +1,41 @@
+.score{
+    display:flex;
+      justify-content: center;
+      
+      
+      overflow: hidden;
+      margin-top:5%;
+      left:0;
+      
+      
+  }
+  
+  .tryagain{
+    display:flex;
+    position: absolute;
+    margin-top: 25%;
+    border:1px solid #222222;
+    background: #222222;;
+    border-radius:4em;
+    
+    color:white;
+    cursor:pointer;
+    min-height:60px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    width:200px;
+    
+    
+    transition:background 0.3s;
+  }
+  .tryagain span{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+  
+  }
+  .tryagain:hover{
+    border-color:#91C691;
+    background:#91C691;
+  }
